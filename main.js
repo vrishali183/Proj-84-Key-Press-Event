@@ -33,19 +33,19 @@ function my_keydown(e)
             document.getElementById("d1").innerHTML="You pressed Alphabet Key";
             console.log("alphabet key");
         }
-        else if(keyPressed >=48 && keyPressed<=57)
+        else if(keyPressed >= && keyPressed<=)
         {
             numberkey();
             document.getElementById("d1").innerHTML="You pressed Number Key";
             console.log("Number key");
         }
-        else if(keyPressed >=37 && keyPressed<=40)
+        else if(keyPressed >= && keyPressed<=)
         {
             arrowkey();
             document.getElementById("d1").innerHTML="You pressed Arrow Key";
             console.log("Arrow Key");
         }
-        else if((keyPressed ==17)|| (keyPressed ==18 || keyPressed ==27))
+        else if((keyPressed ==)|| (keyPressed ==|| keyPressed ==))
         {
             specialkey();
             document.getElementById("d1").innerHTML="You pressed ctrl/esc/alt";
